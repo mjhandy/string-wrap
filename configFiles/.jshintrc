@@ -1,0 +1,27 @@
+{
+  "node": true,
+  "browser": true,
+  "esnext": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": "vars",
+  "strict": true,
+  "asi": true,
+  "expr": true,
+
+  "predef":   [
+    "requirejs",
+    "define",
+    "require",
+
+    "Modernizr",
+    "ga"
+  ]
+}
