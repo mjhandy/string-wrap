@@ -1,0 +1,26 @@
+{
+  "name": "stringWrap",
+  "version": "1.0.0",
+  "description": "Small jquery plugin to wrap the first n words in a string with a span",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mjhandy@github.com/mjhandy/string-wrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjhandy/string-wrap/issues"
+  },
+  "homepage": "https://github.com/mjhandy/string-wrap#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-jsbeautifier": "^0.2.10",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
