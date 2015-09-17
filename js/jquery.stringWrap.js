@@ -17,18 +17,22 @@
           text = node.text(),
           first = text.split(" ", numWords).join(" "),
           cssClass = "";
-     
+
+      console.log(numWords, cls)
       if (!node.length)
           return;
 
       // we check to see if cls has been defined
       if (cls === undefined | cls === null){
         cssClass = '';
-
+        
       }
       else{
-        cssClass == cls;  
+        cssClass = cls;
+        
       }        
+
+
       
       node[0].nodeValue = text.slice(first.length);
       node.before('<span class="' + cssClass + '">' + first + '</span>');
