@@ -7,7 +7,7 @@
 
  // usage 
 
- // $('div').wrapClass(2, 'className');
+ // $('div').stringWrap(2, 'className');
 
 (function(){
 
@@ -18,7 +18,7 @@
           first = text.split(" ", numWords).join(" "),
           cssClass = "";
 
-      console.log(numWords, cls)
+
       if (!node.length)
           return;
 

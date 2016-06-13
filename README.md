@@ -7,4 +7,4 @@ Small jquery plugin to wrap the first n words in a string with a span and a clas
 
 ## usage
 
-$('div').wrapClass(2, 'className');
+$('div').stringWrap(2, 'className');
